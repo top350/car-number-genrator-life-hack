@@ -4,7 +4,7 @@ import { Input } from 'reactstrap'
 import NumberFormat, { NumberFormatValues } from 'react-number-format';
 function App() {
   // var numArr = [2,4,5,6,8,9];
-  var numArr = [0,1,2,4,5,7,8,9];
+  var numArr = [0,1,2,4,5,7,8,9]; // selected number, remove unlucky number
 
   function mapNumber3digits(initValue,result){
     var resultArr = []
